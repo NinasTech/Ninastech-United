@@ -1,17 +1,14 @@
-'use strict';
+"use strict";
 
 // ADD EVENT LISTENER ON MULTIPLE ELEMENTS
-
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
     elements[i].addEventListener(eventType, callback);
   }
-}
-
+};
 
 // NAVBAR TOGGLE FOR MOBILE
-
 
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
@@ -21,10 +18,9 @@ const toggleNavbar = function () {
   navbar.classList.toggle("active");
   overlay.classList.toggle("active");
   document.body.classList.toggle("nav-active");
-}
+};
 
 addEventOnElements(navTogglers, "click", toggleNavbar);
-
 
 // HEADER - ACTIVE HEADER WHEN SCROLL DOW TO 100px
 
@@ -38,17 +34,16 @@ window.addEventListener("scroll", function () {
   }
 });
 
-
-
 /**
  * SLIDER
  */
 
 const sliders = document.querySelectorAll("[data-slider]");
 
-const initSlider = function(currentSlider) {
-
-  const sldierContainer = currentSlider.querySelector("[data-slider-container]");
+const initSlider = function (currentSlider) {
+  const sldierContainer = currentSlider.querySelector(
+    "[data-slider-container]"
+  );
   const sliderPrevBtn = currentSlider.querySelector("[data-slider-prev]");
   const sliderNextBtn = currentSlider.querySelector("[data-slider-next]");
 
@@ -56,7 +51,7 @@ const initSlider = function(currentSlider) {
 
   const moveSliderItem = function () {
     sldierContainer.style.transform = `translateX(-${sldierContainer.children[currentSlidePos].offsetLeft}px)`;
-  }
+  };
 
   /**
    * NEXT SLIDE
@@ -72,7 +67,7 @@ const initSlider = function(currentSlider) {
     }
 
     moveSliderItem();
-  }
+  };
 
   sliderNextBtn.addEventListener("click", slideNext);
 
@@ -80,8 +75,7 @@ const initSlider = function(currentSlider) {
    * PREVIOUS SLIDE
    */
 
-   const slidePrev = function () {
-
+  const slidePrev = function () {
     if (currentSlidePos <= 0) {
       currentSlidePos = sldierContainer.childElementCount - 1;
     } else {
@@ -89,7 +83,7 @@ const initSlider = function(currentSlider) {
     }
 
     moveSliderItem();
-  }
+  };
 
   sliderPrevBtn.addEventListener("click", slidePrev);
 
@@ -98,12 +92,11 @@ const initSlider = function(currentSlider) {
     sliderNextBtn.style.display = "none";
     sliderPrevBtn.style.display = "none";
   }
+};
 
+for (let i = 0, len = sliders.length; i < len; i++) {
+  initSlider(sliders[i]);
 }
-
-for (let i = 0, len = sliders.length; i < len; i++) { initSlider(sliders[i]); }
-
-
 
 /**
  * ACCORDION
@@ -114,7 +107,6 @@ const accordions = document.querySelectorAll("[data-accordion]");
 let lastActiveAccordion = accordions[0];
 
 const initAccordion = function (currentAccordion) {
-
   const accordionBtn = currentAccordion.querySelector("[data-accordion-btn]");
 
   const expandAccordion = function () {
@@ -125,10 +117,11 @@ const initAccordion = function (currentAccordion) {
     currentAccordion.classList.toggle("expanded");
 
     lastActiveAccordion = currentAccordion;
-  }
+  };
 
   accordionBtn.addEventListener("click", expandAccordion);
+};
 
+for (let i = 0, len = accordions.length; i < len; i++) {
+  initAccordion(accordions[i]);
 }
-
-for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordions[i]); }
