@@ -5,8 +5,8 @@
 /* COLORS */
 
   --pink-nina: rgb(255, 27, 80);
-  --pink-nina1:  rgb(255, 44, 90);
-  --pink-nina2: rgb(113, 3, 58);
+  --pink-nina1:  rgb(171, 9, 71); 
+  --pink-nina2: rgb(214, 13, 56);
   --pink-nina3: rgb(228, 148, 166);
   --pink-nina4: rgb(152, 0, 58);
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
@@ -133,7 +133,7 @@ html {
 
 body {
   background-color: var(--white);
-  color: var(--black-coral);
+  color: rgb(109 103 105);
   font-size: 1.6rem;
   line-height: 1.7;
 }
@@ -162,6 +162,7 @@ body.nav-active { overflow: hidden; }
   display: flex;
   align-items: center;
   gap: 12px;
+  color:black;
 }
 
 .social-link {
@@ -338,7 +339,7 @@ body.nav-active { overflow: hidden; }
 
 
  .logotion{
-   color:hsl(0, 0%, 98%);
+   color:hsl(0, 3%, 6%);
    font-size: small;
    
   
@@ -452,7 +453,7 @@ body.nav-active { overflow: hidden; }
   gap: 70px;
 }
 
-.hero-title { color: var(--white); }
+.hero-title { color: hsl(0deg 10.56% 5.88%); }
 
 .hero-text {
   font-size: var(--fs-5);
