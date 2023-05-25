@@ -328,8 +328,8 @@ body.nav-active { overflow: hidden; }
   align-items: center;
   gap: 16px;
 }
-/* 
-.header.active .logo-light,
+
+/* .header.active,
 .header .logo-dark { display: none; } 
 
 .header .logo-light,
@@ -504,7 +504,7 @@ body.nav-active { overflow: hidden; }
   gap: 2px;
   transition: var(--transition-2);    
   width: 100%;
-  } 
+  
 }
 
 
@@ -644,6 +644,23 @@ body.nav-active { overflow: hidden; }
   max-height: max-content;
   padding-block-end: 20px;
 }
+
+
+
+
+
+
+/*-----------------------------------*\
+  work with us test
+\*-----------------------------------*/
+
+
+
+
+
+
+
+
 
 
 
