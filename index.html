@@ -22,6 +22,10 @@
 
 <body>
 
+  <!-- <div style="background-image: url('./assets/images/small.png'); 
+              background-size: cover; height:1000px; padding-top:80px;">
+  </div> -->
+
   <!-- Header -->
   <header class="header active" data-header>
     <!-- <header class="header" data-header> -->
@@ -54,11 +58,11 @@
 
 
           <li>
-            <a href="#section-service" class="navbar-link">About</a>
+            <a href="#section-service" class="navbar-link">Services</a>
           </li>
 
           <li>
-            <a href="#work-label" class="navbar-link">Work with us</a>
+            <a href="#work-label" class="navbar-link">About</a>
           </li>
 
           <li>
@@ -86,26 +90,38 @@
   </div>
   </header>
 
+
   <main>
     <article>
 
       <!-- HERO -->
 
-      <section class="section hero has-bg-image" aria-label="home" style="background-color:rgb(171, 13, 50)">
+
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-color:rgb(171, 13, 50); position: relative">
         <div class="container">
+
+
+
+          <div class="image-top">
+            <img src="./assets/images/tenterosa.png" loading="lazy" alt="about banner" height=726px; width=943px;>
+          </div>
 
           <div class="hero-content">
 
             <h1 class="h1 hero-title">Connect!</h1>
 
             <p class="hero-text">
-
-              Ninastech is an innovative platform that leverages the power of social media for learning programming.
-              With our platform, you can access a wide range of programming resources and educational content, all at no
-              cost.
+              Ninastech is an innovative platform that offers web development services and provides networking
+              opportunities and information for individuals interested in studying programming.
             </p>
 
             <div class="btn-wrapper">
+
+
+
+
 
 
               <div class="social-list">
@@ -150,6 +166,8 @@
                 </ul>
               </div>
 
+
+
               </ul>
 
               <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -161,21 +179,30 @@
 
           </div>
 
+
+
+
+
           <div class="hero-slider" data-slider>
 
-            <div class="slider-inner">
+            <!-- <div class="slider-inner">
               <ul class="slider-container" data-slider-container>
 
-
                 <li class="slider-item">
-                  <img src="./assets/images/small.png" width="575" height="550" loading="lazy" alt="about banner"
-                    class="w-100">
+                  <img src="./assets/images/small.png" width="100%" loading="lazy" alt="about banner" class="w-100">
                 </li>
-              </ul>
+              </ul> -->
 
-            </div>
+          </div>
 
-            <!-- <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+
+
+
+
+
+
+
+          <!-- <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
               <ion-icon name="arrow-back"></ion-icon>
             </button>
 
@@ -183,21 +210,45 @@
               <ion-icon name="arrow-forward"></ion-icon>
             </button> -->
 
-          </div>
+
+
 
         </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
       </section>
 
+
+
+
       <!-- SERVICE -->
+
+
+
+
+
 
       <section class="section service" aria-labelledby="service-label" id="section-service">
         <div class="container">
 
-          <p class="section-subtitle" id="service-label">What We Do?</p>
+          <p class="section-subtitle" id="service-label">What We Believe?</p>
 
           <h2 class="h2 section-title">
-            Ninastech empowers learners to take advantage of the vast opportunities presented by social media for
-            learning programming.
+            Ninastech believe that every business deserves a website that reflects its unique brand and helps it stand
+            out online.
+            That's why we offer customized website solutions that are tailored to the specific needs and budgets of our
+            clients.
 
           </h2>
 
@@ -207,18 +258,16 @@
               <div class="service-card">
 
                 <div class="card-icon">
-                  <a href="https://www.instagram.com/ninas_tech/" target="_blank" class="social-link">
-                    <ion-icon name="logo-instagram"></ion-icon>
+                  <!-- <a href="https://www.instagram.com/ninas_tech/" target="_blank" class="social-link"> -->
+                  <ion-icon name="bulb-outline"></ion-icon>
                   </a>
                 </div>
 
-                <h3 class="h4 card-title">Instagram Ninastech</h3>
+                <h3 class="h4 card-title">Website Designing</h3>
 
                 <p class="card-text">
 
-                  Ninastech utilizes Instagram as a powerful tool for visual learning of programming. With clear
-                  and concise pictures, we provide an easy-to-understand explanation of programming concepts, making the
-                  programming glossary more accessible and simplifying the learning process.
+                  We create stunning, responsive websites that showcase your brand and engage your audience.
                 </p>
 
               </div>
@@ -228,67 +277,137 @@
               <div class="service-card">
 
                 <div class="card-icon">
-                  <a href="https://www.youtube.com/@ninastech777" target="_blank" class="social-link">
-                    <ion-icon name="logo-youtube"></ion-icon>
+                  <!-- <a href="https://www.youtube.com/@ninastech777" target="_blank" class="social-link"> -->
+                  <ion-icon name="code-outline"></ion-icon>
                   </a>
                 </div>
 
-                <h3 class="h4 card-title">Youtube Ninastech </h3>
+                <h3 class="h4 card-title">Website Development</h3>
 
                 <p class="card-text">
-                  Ninastech dedicated to inspiring individuals to learn programming through engaging videos. We provide
-                  step-by-step tutorials that break down complex concepts into simple, easy-to-understand explanations.
-                  Additionally, we offer translations into Portuguese.
-
+                  We specialize in creating fast, user-friendly websites that are optimized for search engines.
 
                 </p>
 
 
               </div>
             </li>
-
-
-
-
 
             <li>
               <div class="service-card">
 
                 <div class="card-icon">
-                  <a href="https://www.linkedin.com/company/ninastech/" target="_blank" class="social-link">
-                    <ion-icon name="logo-linkedin"></ion-icon>
+                  <!-- <a href="https://discord.gg/nAXQjHg7v5" target="_blank" class="social-link"> -->
+                  <ion-icon name="albums-outline"></ion-icon>
                   </a>
                 </div>
 
-                <h3 class="h4 card-title">Linkedin Ninastech </h3>
+                <h3 class="h4 card-title">Support & Maintenance</h3>
 
                 <p class="card-text">
-                  Connect with us and find opportunities as potential employers,
-                  recruiters, and influencers. Take advantage to social media on Ninastech and
-                  build a robust professional network. This network has the potential to open doors to thrilling career
-                  prospects in the programming field.
+                  We provide ongoing support and maintenance services to keep your website running smoothly.
                 </p>
-
               </div>
             </li>
+
+
+
+
             <li>
               <div class="service-card">
 
                 <div class="card-icon">
                   <a href="https://discord.gg/nAXQjHg7v5" target="_blank" class="social-link">
-                    <ion-icon name="logo-discord"></ion-icon>
+                    <ion-icon name="megaphone-outline"></ion-icon>
                   </a>
                 </div>
 
-                <h3 class="h4 card-title">Discord Ninastech</h3>
+                <h3 class="h4 card-title">E-commerce Solution</h3>
 
                 <p class="card-text">
-                  Join a vibrant Ninastech community of programming learners on Discord. Connect with fellow
-                  enthusiasts, exchange ideas, and engage in discussions around programming topics. Share your insights,
-                  ask questions, and collaborate on coding challenges.Start your programming journey today!
+                  E-commerce solutions are the products and services that help a company conduct business
+                  electronically.
                 </p>
               </div>
             </li>
+
+
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <!-- <a href="https://discord.gg/nAXQjHg7v5" target="_blank" class="social-link"> -->
+                  <ion-icon name="person-add-outline"></ion-icon>
+                  </a>
+                </div>
+
+                <h3 class="h4 card-title">Ninastech Consulting</h3>
+
+                <p class="card-text">
+                  If you are a student, accelerate your career and become an expert software engineering consultant
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <!-- <a href="https://discord.gg/nAXQjHg7v5" target="_blank" class="social-link"> -->
+                  <ion-icon name="logo-android"></ion-icon>
+                  </a>
+                </div>
+
+                <h3 class="h4 card-title">Mobile Solutions</h3>
+
+                <p class="card-text">
+
+                  Ninastech develops mobile solutions and provides mobile application development services.
+                </p>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <!-- <a href="https://discord.gg/nAXQjHg7v5" target="_blank" class="social-link"> -->
+                  <ion-icon name="extension-puzzle-outline"></ion-icon>
+                  </a>
+                </div>
+
+                <h3 class="h4 card-title">Project Management</h3>
+
+                <p class="card-text">
+                  We can help you manage every aspect of your project, from planning and execution to monitoring and
+                  control.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <!-- <a href="https://discord.gg/nAXQjHg7v5" target="_blank" class="social-link"> -->
+                  <ion-icon name="git-merge-outline"></ion-icon>
+                  </a>
+                </div>
+
+                <h3 class="h4 card-title">Digital Marketing </h3>
+
+                <p class="card-text">
+                  Ninastech helps enterprises build deeper customer relationships by delivering
+                  personalized experiences.
+                </p>
+              </div>
+            </li>
+
+
+
+
 
             <li>
 
@@ -300,7 +419,7 @@
 
 
 
-      <!-- WHY WORK WITH US?-->
+      <!-- WHY WORK WITH US?
 
       <section class="about" aria-labelledby="about-label" id="work-label">
         <div class="container">
@@ -378,6 +497,173 @@
                     these experiences, as you progress in your career, you will be able to tell the stories of these
                     learnings in interviews and also use these skills in industry positions in USA.
                   </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Products to Suit Your Needs-->
+
+      <section class="about" aria-labelledby="about-label" id="work-label">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/products.jpg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+            <h2 class="h2 section-title">
+              Products to Suit Your Needs
+            </h2>
+
+
+            <spna class="span h5">
+
+              Ninastech offering services that are flexible and affordable, so you can get
+              the features and functionality you need without breaking the bank. We offer a range of packages and
+              pricing options to suit
+              every budget, and we can work with you to develop a custom solution that fits your specific requirements.
+            </spna>
+
+
+
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <!-- <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon> -->
+
+                      <spna class="span h5">HIGH-QUALITY PRODUCTS</spna>
+                    </button>
+                  </h3>
+
+                  <!-- <p class="accordion-content">
+                    Expand opportunities with our software engineering company's extensive network.
+                  </p> -->
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <!-- <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon> -->
+
+                      <spna class="span h5">TRANSPARENCY</spna>
+                    </button>
+                  </h3>
+
+                  <!-- <p class="accordion-content">
+                    
+                  </p> -->
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <!-- <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon> -->
+
+
+                      <spna class="span h5">COST-EFFECTIVE</spna>
+
+                    </button>
+                  </h3>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <!-- <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon> -->
+
+                      <spna class="span h5">FLEXIBILITY</spna>
+
+                    </button>
+                  </h3>
+
+
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <!-- <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon> -->
+
+
+                      <spna class="span h5">COST-EFFECTIVE</spna>
+
+
+                    </button>
+                  </h3>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <!-- <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon> -->
+
+
+                      <spna class="span h5">UNMATCHED SUPPORT</spna>
+
+                    </button>
+                  </h3>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <!-- <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon> -->
+
+                      <spna class="span h5">CUSTOMIZED SOLUTIONS</spna>
+
+                    </button>
+                  </h3>
+
+
+
+
+
+
+
+                  <!-- <p class="accordion-content">
+                  
+                  </p> -->
 
                 </div>
               </li>
@@ -649,8 +935,9 @@
         <div class="container">
 
           <h2 class="h2 section-title" id="contact-join">
-            Make your career grow, join our community!
+            Contact us!
           </h2>
+          <h1>ninastechbrazil@gmail.com</h1>
 
 
           <div class="head">

@@ -4,9 +4,16 @@
 
 /* COLORS */
 
+
+
+/* Polygon 1 */
+
+
+
+
   --pink-nina: rgb(255, 27, 80);
-    --pink-nina1: rgb(247, 242, 243);
-    --pink-nina2: rgb(248 7 58);
+    --pink-nina1: rgb(255, 255, 255);
+    --pink-nina2: #BC2D58;
   --pink-nina3: rgb(228, 148, 166);
   --pink-nina4: rgb(152, 0, 58);
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
@@ -18,7 +25,7 @@
   --lavender-web: hsla(233, 52%, 94%, 1);
   --cadet-blue-crayola: rgb(239, 3, 57);
   --cadet-blue-crayola_a20: rgb(239, 3, 57);
-  --charcoal: rgb(239, 3, 57);
+  --charcoal: rgb(105, 97, 97);
   --raisin-black: hsla(216, 14%, 14%, 1);
   --light-gray: hsla(0, 0%, 79%, 1);
   --blue-crayola: rgb(239, 3, 57);
@@ -178,7 +185,7 @@ body.nav-active { overflow: hidden; }
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background: linear-gradient(110deg, var(--pink-nina2) 50%, var(--pink-nina1) 50%);
+  background: linear-gradient(110deg, var(--pink-nina2) 58%, var(--pink-nina1) 50%);
 }
 
 .h1,
@@ -283,6 +290,15 @@ body.nav-active { overflow: hidden; }
 /* .grid-list-ninas-columns {
   grid-template-columns: repeat(3,minmax(0,1fr));
 } */
+
+
+
+
+
+
+
+
+
 
 
 
@@ -439,8 +455,6 @@ body.nav-active { overflow: hidden; }
   pointer-events: all;
   opacity: 0.8;
 }
-
-
 
 
 
@@ -664,7 +678,15 @@ body.nav-active { overflow: hidden; }
 
 
 
+/*-----------------------------------*\
+  #image-top-small
+\*-----------------------------------*/
 
+.image-top {
+  position: absolute;
+  right: 0;
+  top: 0; 
+}
 
 
 
@@ -1583,7 +1605,7 @@ footer .redes-sociais a i {
 
   .project .grid-list { 
     
-    grid-template-columns: repeat(3, 1fr); }
+    grid-template-columns: repeat(4, 1fr); }
 
 
 
