@@ -899,7 +899,20 @@ FEATURES
  * responsive for large than 575px screen
  */
 
-@media (min-width: 575px) {
+ .column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+
+
+
 
   /**
    * REUSED STYLE
