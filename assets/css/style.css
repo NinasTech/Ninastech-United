@@ -4,9 +4,9 @@
 
 /* COLORS */
 
-  --pink-nina: rgb(255, 27, 80);
+  --pink-nina: rgb(190, 18, 58);
     --pink-nina1: rgb(247, 242, 243);
-    --pink-nina2: rgb(248 7 58);
+    --pink-nina2: rgb(214, 24, 66);
   --pink-nina3: rgb(228, 148, 166);
   --pink-nina4: rgb(152, 0, 58);
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
@@ -178,7 +178,7 @@ body.nav-active { overflow: hidden; }
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background: linear-gradient(110deg, var(--pink-nina2) 50%, var(--pink-nina1) 50%);
+  background: linear-gradient(110deg, var(--pink-nina2) 70%, var(--pink-nina1) 10%);
 }
 
 .h1,
@@ -1415,7 +1415,7 @@ footer .redes-sociais a i {
   /* STATS */
 
   .stats-card {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   /* PROJECT */
