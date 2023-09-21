@@ -1,3 +1,7 @@
+
+
+
+
 /* Custom Property */
 
 :root {
@@ -240,10 +244,10 @@ body.nav-active { overflow: hidden; }
 
 .section-subtitle {
   font-size: var(--fs-7);
-  text-transform: uppercase;
   color: var(--violet-blue-crayola);
   font-weight: var(--fw-700);
   margin-block-end: 16px;
+  text-align: center;
 }
 
 .grid-list {
@@ -560,7 +564,9 @@ body.nav-active { overflow: hidden; }
 
 /* SERVICE */
 
-.service { text-align: center; }
+.service { text-align: left; }
+
+
 
 .service .section-title { margin-block-end: 50px; }
 
@@ -732,7 +738,10 @@ FEATURES
 
 .project { background-color: var(--cultured); }
 
-.project :is(.section-subtitle, .section-title) { text-align: center; }
+.project :is( .section-title) { text-align: center; }
+
+.section-subtitle{ text-align: center; }
+
 
 .project .section-title { margin-block-end: 50px; }
 
