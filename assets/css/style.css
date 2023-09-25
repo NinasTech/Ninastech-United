@@ -9,7 +9,7 @@
 /* COLORS */
 
   --pink-nina: rgb(190, 18, 58);
-    --pink-nina1: rgb(247, 242, 243);
+    --pink-nina1: rgb(109, 27, 43);
     --pink-nina2: rgb(214, 24, 66);
   --pink-nina3: rgb(228, 148, 166);
   --pink-nina4: rgb(152, 0, 58);
@@ -166,7 +166,7 @@ body.nav-active { overflow: hidden; }
   display: flex;
   align-items: center;
   gap: 12px;
-  color:black;
+  color:rgb(77, 9, 20);
 }
 
 .social-link {
@@ -463,11 +463,11 @@ body.nav-active { overflow: hidden; }
   gap: 70px;
 }
 
-.hero-title { color: rgb(5, 5, 5); }
+.hero-title { color: rgb(250, 246, 246); }
 
 .hero-text {
   font-size: var(--fs-5);
-  color: rgb(11, 10, 10);
+  color: rgb(250, 248, 248);
   margin-block: 24px 36px;
 }
 
