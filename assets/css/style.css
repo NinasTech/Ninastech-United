@@ -1665,4 +1665,3 @@ footer .redes-sociais a i {
   transition: var(--transition-1);
 }
 
-.head-link:is(:hover, :focus-visible) { color: var(--violet-blue-crayola); }
