@@ -1,5 +1,6 @@
 
 # Ninastech-United
 
+https://ninastech-united.vercel.app/
 
-![ninastech-website](https://github.com/NinasTech/Ninastech-United/assets/82294375/2ade6951-7a03-43bc-b451-7a62cee9ffd0)
+![linkedin - Made with Clipchamp](https://github.com/NinasTech/Ninastech-United/assets/82294375/7644915e-a510-4cef-b43d-6c49e11e7fde)
