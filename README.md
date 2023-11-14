@@ -1,4 +1,5 @@
 
 # Ninastech-United
 
-![white](https://github.com/NinasTech/Ninastech-United/assets/82294375/49c834de-fd5b-4ff7-b096-b4b76629d4cc)
+
+![ninastech-website](https://github.com/NinasTech/Ninastech-United/assets/82294375/2ade6951-7a03-43bc-b451-7a62cee9ffd0)
