@@ -1665,3 +1665,30 @@ footer .redes-sociais a i {
   transition: var(--transition-1);
 }
 
+
+
+/* /* */
+.profile img{
+
+left: 6.44%;
+right: 67.91%;
+top: 30.87%;
+bottom: 55.01%;
+background: url(Screenshot 2024-01-17 at 11.43.png);
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
